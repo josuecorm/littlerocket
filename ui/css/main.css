@@ -15,10 +15,10 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  /* font-size: 20%; */
+  font-size: 20%;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   #galaxy {
     font-size: 58%;
   }
@@ -28,7 +28,7 @@ body {
   #galaxy {
     font-size: 73%;
   }
-} */
+}
 
 .earth {
   position: absolute;

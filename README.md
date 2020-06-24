@@ -1,2 +1,2 @@
-# littlerocket
+# Little Rocket
 Awesome project

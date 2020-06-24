@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,700,800");
+
+body {
+  background: #24344c;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  position: relative;
+  background: #086ebc;
+  width: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+  /* box-shadow: inset -3px -3px #3a5373; */
+}
+
+.box:before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.earth {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: block;
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -100%;
+  /* border: 1px solid red; */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/bg.jpg); */
+}
+
+/* ICE */
+.ice {
+  position: absolute;
+  display: block;
+  background: white;
+  border-radius: 11px;
+  height: 3%;
+}
+
+.ice-top .ice-1 {
+  width: 12%;
+  top: 7.5%;
+  left: 30%;
+}
+
+.ice-top .ice-2 {
+  width: 12%;
+  top: 11.5%;
+  left: 32%;
+}
+
+.ice-top .ice-3 {
+  width: 7%;
+  top: 15.5%;
+  left: 36%
+}
+
+.ice-top .ice-4 {
+  width: 3%;
+  top: 19.5%;
+  left: 37%;
+}
+
+.ice-bottom .ice-1 {
+  width: 80%;
+  bottom: 0;
+  left: 10%;
+}
+
+.ice-bottom .ice-2 {
+  width: 48%;
+  bottom: 4%;
+  left: 37%;
+}
+
+.ice-bottom .ice-3 {
+  width: 19%;
+  bottom: 8%;
+  left: 43%;
+}
+
+.ice-bottom .ice-4 {
+  width: 15%;
+  bottom: 8%;
+  left: 64%;
+}
+
+/* LAND */
+.land {
+  position: absolute;
+  display: block;
+  background: #5cc04c;
+  /* background: rgba(92, 192, 76, 0.5); */
+  border-radius: 11px;
+  height: 3%;
+}
+
+.group-1 .land-1 {
+  width: 19%;
+  top: 19%;
+  left: 8%;
+}
+
+.group-1 .land-2 {
+  width: 18%;
+  top: 23.4%;
+  left: 14%;
+}
+
+.group-1 .land-3 {
+  width: 19%;
+  top: 28%;
+  left: 15%;
+}
+
+.group-1 .land-4 {
+  width: 15%;
+  top: 32.5%;
+  left: 13%;
+}
+
+.group-1 .land-5 {
+  width: 12%;
+  top: 37%;
+  left: 13%;
+}
+
+.group-1 .land-6 {
+  width: 5%;
+  top: 41%;
+  left: 15%
+}
+
+.group-1 .land-7 {
+  width: 3%;
+  top: 45.5%;
+  left: 16%;
+}
+
+.group-1 .land-8 {
+  width: 4%;
+  top: 49.5%;
+  left: 17%;
+}
+
+.group-1 .land-9 {
+  width: 2%;
+  top: 53.2%;
+  left: 21%;
+}
+
+.group-1 .land-10 {
+  width: 6%;
+  top: 56.2%;
+  left: 23%;
+}
+
+.group-1 .land-11 {
+  width: 9%;
+  top: 60.2%;
+  left: 22%;
+}
+
+.group-1 .land-12 {
+  width: 13%;
+  top: 64.6%;
+  left: 23%;
+}
+
+.group-1 .land-13 {
+  width: 11%;
+  top: 68.8%;
+  left: 24%;
+}
+
+.group-1 .land-14 {
+  width: 8%;
+  top: 73%;
+  left: 26%;
+}
+
+.group-1 .land-15 {
+  width: 7%;
+  top: 77.6%;
+  left: 26%;
+}
+
+.group-1 .land-16 {
+  width: 4%;
+  top: 81.6%;
+  left: 27%;
+}
+
+.group-1 .land-17 {
+  width: 3%;
+  top: 85.6%;
+  left: 27%;
+}
+
+.group-1 .land-18 {
+  width: 2%;
+  top: 89.6%;
+  left: 27%;
+}
+
+.group-2 .land-1 {
+  width: 8%;
+  top: 15.2%;
+  left: 63%;
+}
+
+.group-2 .land-2 {
+  width: 6%;
+  top: 19.2%;
+  left: 50%;
+}
+
+.group-2 .land-3 {
+  width: 30%;
+  top: 19.2%;
+  left: 58%;
+}
+
+.group-2 .land-4 {
+  width: 3%;
+  top: 23.1%;
+  left: 49%;
+}
+
+.group-2 .land-5 {
+  width: 20%;
+  top: 23.1%;
+  left: 53%;
+}
+
+.group-2 .land-6 {
+  width: 7%;
+  top: 22.9%;
+  left: 74%;
+}
+
+.group-2 .land-7 {
+  width: 2%;
+  top: 22.9%;
+  left: 85%;
+}
+
+.group-2 .land-8 {
+  width: 2%;
+  top: 27.4%;
+  left: 44%;
+}
+
+.group-2 .land-9 {
+  width: 8%;
+  top: 27%;
+  left: 47%;
+}
+
+.group-2 .land-10 {
+  width: 19%;
+  top: 27%;
+  left: 56%;
+}
+
+.group-2 .land-11 {
+  width: 7%;
+  top: 27%;
+  left: 76%;
+}
+
+.group-2 .land-12 {
+  width: 3%;
+  top: 30.9%;
+  left: 46%;
+}
+
+.group-2 .land-13 {
+  width: 12%;
+  top: 30.9%;
+  left: 50%;
+}
+
+.group-2 .land-14 {
+  width: 20%;
+  top: 30.9%;
+  left: 63%;
+}
+
+.group-2 .land-15 {
+  width: 3%;
+  top: 34.6%;
+  left: 44%;
+}
+
+.group-2 .land-16 {
+  width: 2%;
+  top: 34.6%;
+  left: 49%;
+}
+
+.group-2 .land-17 {
+  width: 12%;
+  top: 34.8%;
+  left: 52%;
+}
+
+.group-2 .land-18 {
+  width: 14%;
+  top: 34.8%;
+  left: 65%;
+}
+
+.group-2 .land-19 {
+  width: 2%;
+  top: 34.6%;
+  left: 81%;
+}
+
+.group-2 .land-20 {
+  width: 6%;
+  top: 39.6%;
+  left: 44%;
+}
+
+.group-2 .land-21 {
+  width: 23%;
+  top: 38.7%;
+  left: 57%;
+}
+
+.group-2 .land-22 {
+  width: 2%;
+  top: 38.2%;
+  left: 82%;
+}
+
+.group-2 .land-23 {
+  width: 13%;
+  top: 43.5%;
+  left: 43%;
+}
+
+.group-2 .land-24 {
+  width: 4%;
+  top: 43.2%;
+  left: 57%;
+}
+
+.group-2 .land-25 {
+  width: 17%;
+  top: 43%;
+  left: 64%;
+}
+
+.group-2 .land-26 {
+  width: 15%;
+  top: 47.5%;
+  left: 42%;
+}
+
+.group-2 .land-27 {
+  width: 6%;
+  top: 47.5%;
+  left: 58%;
+}
+
+.group-2 .land-28 {
+  width: 5%;
+  top: 47%;
+  left: 67%;
+}
+
+.group-2 .land-29 {
+  width: 4%;
+  top: 47%;
+  left: 74%;
+}
+
+.group-2 .land-30 {
+  width: 16%;
+  top: 51.5%;
+  left: 42%;
+}
+
+.group-2 .land-31 {
+  width: 3%;
+  top: 51.5%;
+  left: 59%;
+}
+
+.group-2 .land-32 {
+  width: 3%;
+  top: 51%;
+  left: 69%;
+}
+
+.group-2 .land-33 {
+  width: 3%;
+  top: 51%;
+  left: 76%;
+}
+
+.group-2 .land-34 {
+  width: 18%;
+  top: 55.6%;
+  left: 43%;
+}
+
+.group-2 .land-35 {
+  width: 9%;
+  top: 60%;
+  left: 50%;
+}
+
+.group-2 .land-36 {
+  width: 7%;
+  top: 63.9%;
+  left: 50%;
+}
+
+.group-2 .land-37 {
+  width: 7%;
+  top: 67.8%;
+  left: 51%;
+}
+
+.group-2 .land-38 {
+  width: 6%;
+  top: 71.7%;
+  left: 51%;
+}
+
+.group-2 .land-39 {
+  width: 2%;
+  top: 71.4%;
+  left: 59%;
+}
+
+.group-2 .land-40 {
+  width: 5%;
+  top: 75.6%;
+  left: 51%;
+}
+
+.group-2 .land-41 {
+  width: 2%;
+  top: 75.6%;
+  left: 59%;
+}
+
+.group-2 .land-42 {
+  width: 2%;
+  top: 79.6%;
+  left: 52%;
+}
+
+
+.group-3 .land-1 {
+  width: 2%;
+  top: 57%;
+  left: 80%;
+}
+
+.group-3 .land-2 {
+  width: 3%;
+  top: 61%;
+  left: 79%;
+}
+
+.group-3 .land-3 {
+  width: 4%;
+  top: 61.3%;
+  left: 85%;
+}
+
+.group-3 .land-4 {
+  width: 4%;
+  top: 65.3%;
+  left: 87%;
+}
+
+.group-3 .land-5 {
+  width: 4%;
+  top: 69.6%;
+  left: 84%;
+}
+
+.group-3 .land-6 {
+  width: 10%;
+  top: 73.8%;
+  left: 80%;
+}
+
+.group-3 .land-7 {
+  width: 12%;
+  top: 78%;
+  left: 79%;
+}
+
+.group-3 .land-8 {
+  width: 2%;
+  top: 82%;
+  left: 80%;
+}
+
+.group-3 .land-9 {
+  width: 4%;
+  top: 82%;
+  left: 86%;
+}

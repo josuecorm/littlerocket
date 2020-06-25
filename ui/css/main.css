@@ -34,8 +34,8 @@ body {
   position: absolute;
   font-size: 24em;
   background: #086ebc;
-  border-radius: 50%;
-  overflow: hidden;
+  /* border-radius: 50%; */
+  /* overflow: hidden; */
   top: 50%;
   left: 50%;
   width: 1em;
@@ -49,13 +49,37 @@ body {
   width: 200%;
   height: 100%;
   position: absolute;
-  left: 50%;
-  margin-left: -100%;
-  /* border: 1px solid red; */
+  top: 0;
+  left: 0;
+  /* animation-name: rotation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; */
+  transform: translate(0, 0);
+  transform-style: preserve-3d;
+  border: 1px solid red;
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(../img/bg.jpg); */
+}
+
+@keyframes rotation {
+  0% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(-20%, 0);
+  }
+  
+  80% {
+    transform: translate(-40%, 0);
+  }
+
+  100%{
+    transform: translate(-60%, 0);
+  }
 }
 
 .ice,
